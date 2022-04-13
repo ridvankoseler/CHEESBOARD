@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-color:burlywood
+
+}
+
+
+.başlık{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    color: rgb(50, 114, 74);
+}
+.title{
+    animation: animate 4s alternate infinite;
+    margin: 8px;
+    
+}
+@keyframes animate  {
+    0%{transform: rotateZ(0deg);}
+    50%{transform: rotateZ(360deg);}
+    100%{transform: rotateZ(0deg);}
+
+
+
+
+}
+
+table{
+    margin: auto;
+    border: 20px double gray;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 550;
+    border-spacing: 0px;
+    border opacity: 1000px;
+}
+table td{
+    border: 2px solid gray;
+
+
+}
+
+
+.beyaz{
+    width: 75px; 
+    height: 75px;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    /* border: 2px solid red; */
+}
+
+.siyah{
+    width: 75px; 
+    height: 75px;
+    background-color: rgb(184, 107, 107) ;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
